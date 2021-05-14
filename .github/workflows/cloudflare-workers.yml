@@ -49,7 +49,7 @@ name: Deploy utterances-oauth
          name = "utterances-oauth"
          type = "javascript"
          routes = [
-             "api.utterances.example.com/*"
+             "utterances-oauth.silent-cherry-cd10.3309839520.workers.dev/authorized*"
          ]
          account_id = "$ACCOUNT_ID"
          zone_id = "$ZONE_ID"
